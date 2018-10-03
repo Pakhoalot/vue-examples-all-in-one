@@ -1,8 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+       | <router-link to="/">Home</router-link> |
+      <router-link to="/markdown-editor">Markdown Editor</router-link> |
+      <router-link to="/github-commits">GitHub Commits</router-link> |
+      <router-link to="/grid-view">Grid View</router-link> |
+      <router-link to="/tree-view">Tree View</router-link> |
+      <router-link to="/graph-view">Graph View</router-link> |
+      <router-link to="/modal-view">Modal View</router-link> |
+      <router-link to="/elasic-header">Elasic Header</router-link> |
     </div>
     <router-view/>
   </div>
@@ -13,10 +19,10 @@
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 #nav {
+  text-align: center;
   padding: 30px;
   a {
     font-weight: bold;
