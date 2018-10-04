@@ -9,6 +9,8 @@
       <router-link to="/graph-view">Graph View</router-link> |
       <router-link to="/modal-view">Modal View</router-link> |
       <router-link to="/elasic-header">Elasic Header</router-link> |
+      <router-link to="/wrapper-view">Wrapper View</router-link> |
+      <router-link to="/validation-view">Validation View</router-link> |
     </div>
     <router-view/>
   </div>

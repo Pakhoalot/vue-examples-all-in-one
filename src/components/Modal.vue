@@ -43,7 +43,6 @@
   background-color: rgba(0, 0, 0, .5);
   display: table;
   transition: opacity .3s ease;
-  
 }
 .modal-wrapper {
   display: table-cell;
@@ -57,7 +56,6 @@
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
-  
 }
 .modal-header h3 {
     margin-top: 0;

@@ -8,6 +8,8 @@ import TreeView from '@/views/TreeView.vue';
 import GraphView from '@/views/GraphView.vue';
 import ModalView from '@/views/ModalView.vue';
 import ElasicHeader from '@/views/ElasicHeader.vue';
+import WrapperView from '@/views/WrapperView.vue';
+import ValidationView from '@/views/ValidationView.vue';
 
 Vue.use(Router);
 
@@ -53,7 +55,16 @@ export default new Router({
       name: 'elasic-header',
       component: ElasicHeader,
     },
-    
+    {
+      path: '/wrapper-view',
+      name: 'wrapper-view',
+      component: WrapperView,
+    },
+    {
+      path: '/validation-view',
+      name: 'validation-view',
+      component: ValidationView,
+    },
     // {
     //   path: '/about',
     //   name: 'about',
